@@ -70,7 +70,7 @@
     <div class="login-container">
         <div class="login-card">
             <img src="<?= base_url('assets/img/login.png'); ?>" alt="Logo">
-            <h3>Aplikasi Stok Barang haha</h3>
+            <h3>Aplikasi Stok Barang </h3>
 
             <?php if ($this->session->flashdata('alert')): ?>
                 <div class="alert alert-danger" role="alert">
@@ -81,7 +81,7 @@
             <?= form_open(); ?>
 
             <div class="form-group">
-                <label for="username"><i class="fa fa-user"></i> Username adfadasd</label>
+                <label for="username"><i class="fa fa-user"></i> Username</label>
                 <input type="text" class="form-control form-control-sm <?= (form_error('username')) ? 'is-invalid' : ''; ?>"
                        name="username" id="username" placeholder="Username" autocomplete="off" value="<?= set_value('username'); ?>">
                 <div class="invalid-feedback">
