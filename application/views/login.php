@@ -70,7 +70,7 @@
     <div class="login-container">
         <div class="login-card">
             <img src="<?= base_url('assets/img/login.png'); ?>" alt="Logo">
-            <h3>Aplikasi Stok Barang 123</h3>
+            <h3>Aplikasi Stok Barang </h3>
 
             <?php if ($this->session->flashdata('alert')): ?>
                 <div class="alert alert-danger" role="alert">
