@@ -81,7 +81,7 @@
             <?= form_open(); ?>
 
             <div class="form-group">
-                <label for="username"><i class="fa fa-user"></i> Username 123</label>
+                <label for="username"><i class="fa fa-user"></i> Username</label>
                 <input type="text" class="form-control form-control-sm <?= (form_error('username')) ? 'is-invalid' : ''; ?>"
                        name="username" id="username" placeholder="Username" autocomplete="off" value="<?= set_value('username'); ?>">
                 <div class="invalid-feedback">
