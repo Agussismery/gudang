@@ -48,7 +48,7 @@
             </li> -->
 
             <li <?= (in_array(strtolower($this->uri->segment(1)), ['input_berat'])) ? 'class="active"' : ''; ?>>
-                <a href="<?= site_url('input_berat'); ?>"><i class="fa fa-archive"></i> Input Berat</a>
+                <a href="<?= site_url('input_berat'); ?>"><i class="fa fa-share"></i> Input Berat</a>
             </li>
 
             <li <?= (in_array(strtolower($this->uri->segment(1)), ['input_pengiriman'])) ? 'class="active"' : ''; ?>>
